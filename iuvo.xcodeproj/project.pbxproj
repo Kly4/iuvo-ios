@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		552F1EC01A439B58008FE741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F1EBF1A439B58008FE741 /* AppDelegate.swift */; };
+		552F1EC21A439B58008FE741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F1EC11A439B58008FE741 /* ViewController.swift */; };
+		552F1EC51A439B58008FE741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552F1EC31A439B58008FE741 /* Main.storyboard */; };
+		552F1EC71A439B58008FE741 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552F1EC61A439B58008FE741 /* Images.xcassets */; };
+		552F1ED61A439B58008FE741 /* iuvoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F1ED51A439B58008FE741 /* iuvoTests.swift */; };
+		552F1EE01A439BA0008FE741 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552F1EDF1A439BA0008FE741 /* FacebookSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		552F1ED01A439B58008FE741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 552F1EB21A439B58008FE741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 552F1EB91A439B58008FE741;
+			remoteInfo = iuvo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		552F1EBA1A439B58008FE741 /* iuvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iuvo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		552F1EBE1A439B58008FE741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552F1EBF1A439B58008FE741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		552F1EC11A439B58008FE741 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		552F1EC41A439B58008FE741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		552F1EC61A439B58008FE741 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		552F1ECF1A439B58008FE741 /* iuvoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iuvoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		552F1ED41A439B58008FE741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552F1ED51A439B58008FE741 /* iuvoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iuvoTests.swift; sourceTree = "<group>"; };
+		552F1EDF1A439BA0008FE741 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		552F1EE11A439BD4008FE741 /* bridge_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge_header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		552F1EB71A439B58008FE741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552F1EE01A439BA0008FE741 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		552F1ECC1A439B58008FE741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		552F1EB11A439B58008FE741 = {
+			isa = PBXGroup;
+			children = (
+				552F1EBC1A439B58008FE741 /* iuvo */,
+				552F1ED21A439B58008FE741 /* iuvoTests */,
+				552F1EBB1A439B58008FE741 /* Products */,
+				552F1EDF1A439BA0008FE741 /* FacebookSDK.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		552F1EBB1A439B58008FE741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				552F1EBA1A439B58008FE741 /* iuvo.app */,
+				552F1ECF1A439B58008FE741 /* iuvoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		552F1EBC1A439B58008FE741 /* iuvo */ = {
+			isa = PBXGroup;
+			children = (
+				552F1EBF1A439B58008FE741 /* AppDelegate.swift */,
+				552F1EC11A439B58008FE741 /* ViewController.swift */,
+				552F1EC31A439B58008FE741 /* Main.storyboard */,
+				552F1EC61A439B58008FE741 /* Images.xcassets */,
+				552F1EBD1A439B58008FE741 /* Supporting Files */,
+				552F1EE11A439BD4008FE741 /* bridge_header.h */,
+			);
+			path = iuvo;
+			sourceTree = "<group>";
+		};
+		552F1EBD1A439B58008FE741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				552F1EBE1A439B58008FE741 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		552F1ED21A439B58008FE741 /* iuvoTests */ = {
+			isa = PBXGroup;
+			children = (
+				552F1ED51A439B58008FE741 /* iuvoTests.swift */,
+				552F1ED31A439B58008FE741 /* Supporting Files */,
+			);
+			path = iuvoTests;
+			sourceTree = "<group>";
+		};
+		552F1ED31A439B58008FE741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				552F1ED41A439B58008FE741 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		552F1EB91A439B58008FE741 /* iuvo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 552F1ED91A439B58008FE741 /* Build configuration list for PBXNativeTarget "iuvo" */;
+			buildPhases = (
+				552F1EB61A439B58008FE741 /* Sources */,
+				552F1EB71A439B58008FE741 /* Frameworks */,
+				552F1EB81A439B58008FE741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iuvo;
+			productName = iuvo;
+			productReference = 552F1EBA1A439B58008FE741 /* iuvo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		552F1ECE1A439B58008FE741 /* iuvoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 552F1EDC1A439B58008FE741 /* Build configuration list for PBXNativeTarget "iuvoTests" */;
+			buildPhases = (
+				552F1ECB1A439B58008FE741 /* Sources */,
+				552F1ECC1A439B58008FE741 /* Frameworks */,
+				552F1ECD1A439B58008FE741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				552F1ED11A439B58008FE741 /* PBXTargetDependency */,
+			);
+			name = iuvoTests;
+			productName = iuvoTests;
+			productReference = 552F1ECF1A439B58008FE741 /* iuvoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		552F1EB21A439B58008FE741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = iuvo;
+				TargetAttributes = {
+					552F1EB91A439B58008FE741 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					552F1ECE1A439B58008FE741 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 552F1EB91A439B58008FE741;
+					};
+				};
+			};
+			buildConfigurationList = 552F1EB51A439B58008FE741 /* Build configuration list for PBXProject "iuvo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 552F1EB11A439B58008FE741;
+			productRefGroup = 552F1EBB1A439B58008FE741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				552F1EB91A439B58008FE741 /* iuvo */,
+				552F1ECE1A439B58008FE741 /* iuvoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		552F1EB81A439B58008FE741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552F1EC51A439B58008FE741 /* Main.storyboard in Resources */,
+				552F1EC71A439B58008FE741 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		552F1ECD1A439B58008FE741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		552F1EB61A439B58008FE741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552F1EC21A439B58008FE741 /* ViewController.swift in Sources */,
+				552F1EC01A439B58008FE741 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		552F1ECB1A439B58008FE741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552F1ED61A439B58008FE741 /* iuvoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		552F1ED11A439B58008FE741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 552F1EB91A439B58008FE741 /* iuvo */;
+			targetProxy = 552F1ED01A439B58008FE741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		552F1EC31A439B58008FE741 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				552F1EC41A439B58008FE741 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		552F1ED71A439B58008FE741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		552F1ED81A439B58008FE741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552F1EDA1A439B58008FE741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/newzealandkiwialex/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = iuvo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = iuvo/bridge_header.h;
+			};
+			name = Debug;
+		};
+		552F1EDB1A439B58008FE741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/newzealandkiwialex/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = iuvo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = iuvo/bridge_header.h;
+			};
+			name = Release;
+		};
+		552F1EDD1A439B58008FE741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iuvoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iuvo.app/iuvo";
+			};
+			name = Debug;
+		};
+		552F1EDE1A439B58008FE741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iuvoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iuvo.app/iuvo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		552F1EB51A439B58008FE741 /* Build configuration list for PBXProject "iuvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552F1ED71A439B58008FE741 /* Debug */,
+				552F1ED81A439B58008FE741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		552F1ED91A439B58008FE741 /* Build configuration list for PBXNativeTarget "iuvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552F1EDA1A439B58008FE741 /* Debug */,
+				552F1EDB1A439B58008FE741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		552F1EDC1A439B58008FE741 /* Build configuration list for PBXNativeTarget "iuvoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552F1EDD1A439B58008FE741 /* Debug */,
+				552F1EDE1A439B58008FE741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 552F1EB21A439B58008FE741 /* Project object */;
+}
